@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+    <style>
+         nav ul a{
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        body {
+            background: #ee9ca7;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            display: flex;
+            justify-content: left;
+        }
+    </style>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Tienda.html">Inicio</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Contáctanos si tenes dudas</h1>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" cols="30" rows="10" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+    </body>
+    </html>
+    
